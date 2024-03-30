@@ -1,0 +1,37 @@
+4. Od kako kreirav remote repository na git hub lokalno na mojot Desktop kreirav direktorium koj shto e 
+lokalen repozitorium, so komandata mkdir, so komandata cd SI_2023_lab1_213258, vlegov vnatre vo reporzitoriumot vo
+koj shto inicijalizirav Git so komandata git init.
+5. Povrzuvanje na lokalno repo i na remote repo se pravi so komandata git remote add origin.
+6. Kreirav README.md dadoteka so komandata nano README.md, od kako ja kreirav datotekata taa beshe vo untracked,
+za da mozheme da napravime commit, mora prvo da se napravi git add README.md so koja shto datotekata vlaga vo staged
+koja shto mozheme da ja commitneme, so komandata git commit -m "Initial commit" go napraviv prviot commit.
+7. Isto i za ovoj chekor kako prethodniot samo shto sodrzhinata e druga.
+8. Sinhroniziranje na site granki napraviv so git push -u origin master, odnosno gi prikachiv na remote repo.
+9. Otvaranje na tri granki se pravi so git branch <ime na grankata>.
+10. Prefrlanje na druga granka se pravi so git checkout <ime na grankata>.
+11. Za da ja popravam greshkata vo datotekata SILab.java, ja iskoristiv nano SILab.java. Otkako ja popraviv
+i ja zachuvav greshkata datotekata vleguva vo sostojba modified, na koja shto mora da i napravime pak
+git add SILab.java za da bide vo staged sostojba i od tamu da mozheme da commitneme so komandata 
+git commit. Vo bug1 ja popraviv greshkata da gi dava stringovite vo neparna dolzina
+git commit -m "Fix wrong condition in filterOddLengthStrings".
+12.Git checkout bug2
+13. Ja popraviv greskata i napraiv git add i git commit na modified file so noviot kod
+14.Git checkout bug1
+15.Go dodadov noviot red vo kodot i napraiv git add i git commit na izmenetion file
+16.Git checkout bug2
+17.Go dodadov redot so kod vo fajlot so kodot i mu napraiv git add i git commit 
+18.Sinhroniziranjeto go napraviv taka shto prvo se prefrliv na master grankata, i ja povikav
+komandata git push --all, poradi toa shto treba da se stavat site granki.
+19. Prefrlanje na grankata so komandata git checkout <ime na granka>
+20. Grankata bug1 ja spoiv so master grankata taka shto ja povikav komandata git merge bug1, so ovaa komanda
+ja spoivme grankata bug1 so master taka shto commitot od bug1 se naogja na master, tuka nema conflict, 
+poradi toa shto na master grankata nema commit koj shto kje smeta na commitot od bug1. Tuka imashe
+fast forward spojuvanje.
+21. Sinhroniziranjeto: git push -u origin master
+22.Git checkout bug2
+23.Koga napraviv rebase mi dade poraka deka ima konflikt i deka moram da odberam deka i vo dvata e smenet ist red vo kodot da odberam koj ke pomine jas odbrav
+ f6a2d9f (System.out.println(SILab1_2.makeBigStringFrom(list));)
+24.git checkout master
+25.git merge bug2
+26.git push -u origin master
+27.git push --all no mi trebase da iskoristam i git push --force origin bug2

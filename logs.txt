@@ -1,0 +1,35 @@
+commit 1696b3c72e75884387c29c93fe43875528739929 (HEAD -> master, origin/master, bug2)
+Author: gjorgekarkalashev <165331806+gjorgekarkalashev@users.noreply.github.com>
+Date:   Sat Mar 30 13:29:45 2024 +0100
+
+    System.out.println(SILab1_2.makeBigStringFrom(list));
+
+commit fa0553192f333b64ece7c72ee53d6247af7b5835
+Author: gjorgekarkalashev <165331806+gjorgekarkalashev@users.noreply.github.com>
+Date:   Sat Mar 30 13:25:44 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 06b0e67c84aaa5697f7a32217475498f6a67a84b (origin/bug1, bug1)
+Author: gjorgekarkalashev <165331806+gjorgekarkalashev@users.noreply.github.com>
+Date:   Sat Mar 30 13:28:21 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 6a446956bb76699f4ff6941e92a011e5ef7e0056
+Author: gjorgekarkalashev <165331806+gjorgekarkalashev@users.noreply.github.com>
+Date:   Sat Mar 30 13:24:44 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 32329a3acfbee70c4b539da1f1e9b82bde93e271
+Author: gjorgekarkalashev <165331806+gjorgekarkalashev@users.noreply.github.com>
+Date:   Sat Mar 30 13:20:52 2024 +0100
+
+    Add Starter Code
+
+commit 9c0251764169e4f964aa2ea1af4d482d4d5cb3d9
+Author: gjorgekarkalashev <165331806+gjorgekarkalashev@users.noreply.github.com>
+Date:   Sat Mar 30 13:16:37 2024 +0100
+
+    Initial commit
